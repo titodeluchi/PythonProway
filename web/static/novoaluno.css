@@ -1,0 +1,47 @@
+
+body{
+    background-image: url(img/cartermoss99.jpg);
+    color:      #ffffff;
+}
+h1{
+    text-decoration: underline;
+    text-align: center;
+    color: rgb(122, 26, 185);
+}
+.cabecalho{
+    width:    100%;
+    height:    2em;
+    text-align: left;
+}
+.cabecalho img{
+    width:  9em;
+    height: 9em;
+}
+body{
+    text-align: center;
+}
+.label_nome{
+    width:             6%;
+    display: inline-block;
+    text-align:     right;
+}
+input{
+    margin:          1em 0 0 0;
+    height:             1.8em;
+    display:     inline-block;
+    text-align:        center;
+    width:                40%;
+    background: rgb(122, 26, 185);
+    color:          #ffffff;
+    border-radius:        10%;
+}
+.btm{
+    width:            100px;
+    height:           100px;
+    border-radius:     50px;
+}
+.btm:hover{
+    background:   rgb(204, 202, 61);
+    color:      black;
+
+}

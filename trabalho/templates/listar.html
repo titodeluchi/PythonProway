@@ -1,0 +1,23 @@
+{% extends "tbl.html" %}
+{% block conteudo %}
+    <table>
+        <thead>
+            <tr>
+                <th> Codigo </th>
+                <th> Nome </th>
+                <th> Embalagem </th>
+            </tr>
+        </thead>
+        <tbody>
+            {% for c in lista %}
+                <tr>
+                    <td>{{c.codigo}}</td>
+                    <td>{{c.nome}}</td>
+                    <td>{{c.embalagem}}</td>
+                    <td>{{c.preco}}</td>
+                </tr>
+            {% endfor %}
+        </tbody>
+    </table>
+
+{% endblock %}

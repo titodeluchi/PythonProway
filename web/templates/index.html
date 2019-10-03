@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="../static/estilos.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>{{nome}}</title>
+</head>
+<body>
+    <div class="cabecalho">
+        <h1>{{nome}}</h1>
+    </div>
+    <div class="novo">
+        <a href="/novo">Novo Aluno</a>
+    </div>
+    <table> 
+        <thead>
+            <tr>
+                <th>Nome</th>
+                <th>Telefone</th>
+            </tr>
+        </thead>
+        <tbody>
+            {% for a in lista %}
+            <tr>
+                <td>{{ a.nome_completo() }}</td>
+                <td>{{ a.Telefone }}</td>
+            </tr>
+            {% endfor %}
+        </tbody>
+    </table>
+</body>
+</html>

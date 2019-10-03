@@ -1,0 +1,54 @@
+body{
+    background-image: url(./Tarkenton.jpg)
+}
+.cabecalho, .novo{
+    width:             60%;
+    margin:           auto;
+    text-align:     center;
+}
+.novo a{
+    text-transform:    uppercase;
+    color:             #434443;
+    background:        #d7f85d;
+    border: 1px solid #000000 ;
+    font-size:           0.875em;
+    border-radius:          10px;
+    margin-bottom:           2em;
+    padding:            .5em 1em;
+    text-decoration:        none;
+}
+.novo a:hover{
+    color:      #cccccc;
+    background: #9913b4;
+} 
+table{
+    width: 80%;
+    height: 60%;
+    margin:           auto;
+    border-collapse: collapse;
+    margin: auto;
+    text-align: center;
+    border-radius: 100px;
+}
+thead{
+    background: #000000;
+    color:      #ffffff;
+}
+th{
+    height:               2em;
+    text-align:          left;
+    padding:        0.5em 1em;
+    text-transform: uppercase;
+    font-size:           20px;
+}
+td{
+    height:               1.5em;
+    padding:          0.5em 1em;
+    border: 1px solid #f3f5f4;
+}
+tbody tr{
+
+}
+tbody tr:hover{
+    background:       #a820dd;
+}
