@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Home</title>
+</head>
+<body>
+    <div class="cabecalho">
+        <h1>Investimento</h1>
+    </div>
+    <table>
+        <thead>
+            <tr>
+                <th>categoria</th>
+                <th>tipo</th>
+                <th>aporte</th>
+                <th>rentabilidade</th>
+                <th>periodo</th>
+            </tr>
+        </thead>
+        <tbody>
+            {%for i in lista %}
+                <tr>
+                    <td>{{i.categoria}}</td>
+                    <td>{{i.tipo}}</td>
+                    <td>{{i.aporte}}</td>
+                    <td>{{i.rentabilidade}}</td>                
+                    <td>{{i.periodo_rentabilidade}}</td>                
+                </tr>
+            {% endfor %}
+        </tbody>
+    </table>
+</body>
+</html>
